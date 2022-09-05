@@ -29,7 +29,7 @@
 }
 
 #socialmedia {
-  color: white;
+  color: rgb(223, 223, 223);
   font-size: 5vh;
   grid-area: socialmedia;
 }

@@ -15,7 +15,6 @@ document.addEventListener("DOMContentLoaded", function () {
     arrows: false,
     pagination: false,
     isNavigation: true,
-    focus: "center",
     breakpoints: {
       600: {
         fixedWidth: 60,
@@ -27,17 +26,4 @@ document.addEventListener("DOMContentLoaded", function () {
   main.sync(thumbnails);
   main.mount();
   thumbnails.mount();
-
-  var slide = new Splide("#scroll", {
-    type: "loop",
-    drag: "free",
-    focus: "center",
-    perPage: 3,
-    autoScroll: {
-      speed: 1,
-    },
-  });
-
-  new Splide("#scroll").mount({ AutoScroll });
-  slide.mount();
 });
