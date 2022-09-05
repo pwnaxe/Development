@@ -5,12 +5,11 @@
   background-position: auto;
   max-width: 100vw;
   min-height: 100vh;
-  margin-top: 15vh;
 }
 
 #splideloop .splide__slide img {
-  width: 40%;
-  height: 40%;
+  width: 100%;
+  height: 100%;
   object-fit: scale-down;
 }
 
@@ -18,9 +17,13 @@
   top: 20rem;
 }
 
-#partners h1 {
+.h1par {
   display: block;
-  position: static;
+  position: absolute;
   margin-left: auto;
   margin-right: auto;
+  left: auto;
+  right: auto;
+  margin-block-start: auto;
+  margin-block-end: auto;
 }

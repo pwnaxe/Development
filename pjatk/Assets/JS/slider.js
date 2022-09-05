@@ -31,11 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
     type: "loop",
     drag: "free",
     focus: "center",
-    perPage: 3,
-    grid: {
-      row: 2,
-      col: 4,
-    },
+    perPage: 7,
     autoScroll: {
       speed: 1,
     },
