@@ -26,4 +26,18 @@ document.addEventListener("DOMContentLoaded", function () {
   main.sync(thumbnails);
   main.mount();
   thumbnails.mount();
+  import Splide from "./splide";
+  import { AutoScroll } from "./splide-extension-auto-scroll";
+
+  const splide = new Splide(".splide", {
+    type: "loop",
+    drag: "free",
+    focus: "center",
+    perPage: 3,
+    autoScroll: {
+      speed: 1,
+    },
+  });
+
+  splide.mount();
 });
