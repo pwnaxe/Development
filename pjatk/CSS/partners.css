@@ -7,3 +7,20 @@
   min-height: 100vh;
   margin-top: 15vh;
 }
+
+#splideloop .splide__slide img {
+  width: 40%;
+  height: 40%;
+  object-fit: scale-down;
+}
+
+#splideloop {
+  top: 20rem;
+}
+
+#partners h1 {
+  display: block;
+  position: static;
+  margin-left: auto;
+  margin-right: auto;
+}
