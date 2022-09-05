@@ -1,0 +1,9 @@
+#partners {
+  background-image: url("http://tanosmotorsport.pl/assets/partners.webp");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: auto;
+  max-width: 100vw;
+  min-height: 100vh;
+  margin-top: 15vh;
+}

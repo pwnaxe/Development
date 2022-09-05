@@ -1,0 +1,39 @@
+#footer {
+  position: relative;
+  max-width: 100vw;
+  min-height: 60vh;
+  background-image: url("http://tanosmotorsport.pl/assets/footer.webp");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    ". . contact . ."
+    "logoabk2 . . . socialmedia";
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: end;
+}
+
+#logoabk2 {
+  grid-area: logoabk2;
+}
+
+#contact {
+  text-align: center;
+  grid-area: contact;
+}
+
+#socialmedia {
+  color: white;
+  font-size: 5vh;
+  grid-area: socialmedia;
+}
+
+#socialmedia a {
+  margin-right: 1vw;
+}
