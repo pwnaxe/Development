@@ -34,22 +34,22 @@ body {
 
 .topmargin {
   display: block;
-  margin-left: 13vw;
+  margin-left: 5%;
   margin-top: 28vh;
-  margin-right: 54rem;
+  margin-right: 10%;
 }
 
 #top h1 {
-  font-size: 55px;
+  font-size: 3rem;
 }
 
 .bold {
   font-weight: bold;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .size {
-  font-size: 20px;
+  font-size: 1rem;
 }
 
 .button {
@@ -77,4 +77,23 @@ body {
 .margin {
   margin-top: 2vh;
   display: block;
+}
+
+#lng {
+  display: inline-block;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+@media all and (max-width: 1400px) {
+  .bold {
+    font-size: 1rem;
+  }
+  .size {
+    font-size: 0.7rem;
+  }
+  #top h1 {
+    font-size: 2rem;
+  }
 }

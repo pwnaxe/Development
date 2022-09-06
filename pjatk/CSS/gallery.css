@@ -2,6 +2,7 @@
   max-width: 100vw;
   text-align: center;
   margin-bottom: 10rem;
+  overflow: hidden;
 }
 
 .splide__slide img {
@@ -27,8 +28,8 @@
   background-image: url("http://tanosmotorsport.pl/assets/prev.png");
   background-repeat: no-repeat;
   background-size: contain;
-  left: 20rem;
-  top: 20rem;
+  left: 10%;
+  top: 50%;
   margin-left: auto;
   margin-right: auto;
   background-color: white;
@@ -41,8 +42,8 @@
   background-image: url("http://tanosmotorsport.pl/assets/next.png");
   background-repeat: no-repeat;
   background-size: contain;
-  right: 20rem;
-  top: 20rem;
+  right: 10%;
+  top: 50%;
   margin-left: auto;
   margin-right: auto;
   background-color: white;

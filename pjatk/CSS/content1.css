@@ -36,6 +36,8 @@
   align-content: center;
   justify-items: center;
   align-items: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 #text {
   grid-area: text;
@@ -43,23 +45,22 @@
 }
 #date {
   grid-area: date;
-  margin-right: 5vw;
+  margin-right: 2rem;
+  background-image: url("http://tanosmotorsport.pl/assets/data.webp");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .day {
   font-size: 30vh;
   display: inline-block;
   position: relative;
-  right: -16.4vw;
-  top: -5vh;
 }
 
 .month {
   font-size: 5vh;
   display: inline-block;
   position: relative;
-  right: -10vw;
-  top: 4vh;
 }
 
 @media all and (max-width: 1000px) {
