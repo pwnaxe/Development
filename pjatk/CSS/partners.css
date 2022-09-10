@@ -1,5 +1,5 @@
 #partners {
-  background-image: url("http://tanosmotorsport.pl/assets/partners.webp");
+  background-image: url("/Assets/icons/partners.webp");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: auto;
@@ -19,11 +19,23 @@
 
 .h1par {
   display: block;
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  left: auto;
-  right: auto;
-  margin-block-start: auto;
-  margin-block-end: auto;
+  position: relative;
+  text-align: center;
+}
+
+.h2par {
+  display: block;
+  position: relative;
+  text-align: center;
+}
+
+@media all and (max-width: 1400px) {
+  #splideloop {
+    top: 23vw;
+  }
+}
+@media all and (max-width: 1000px) {
+  #partners {
+    min-height: 50vh;
+  }
 }

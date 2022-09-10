@@ -46,7 +46,7 @@
 #date {
   grid-area: date;
   margin-right: 2rem;
-  background-image: url("http://tanosmotorsport.pl/assets/data.webp");
+  background-image: url("/Assets/icons/data.webp");
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -64,4 +64,19 @@
 }
 
 @media all and (max-width: 1000px) {
+  #content1 {
+    margin-top: 2rem;
+  }
+  .day {
+    font-size: 10rem;
+  }
+  .month {
+    font-size: 2rem;
+  }
+}
+
+@media all and (max-width: 900px) {
+  #content1 img {
+    width: 90%;
+  }
 }

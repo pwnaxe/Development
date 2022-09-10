@@ -32,8 +32,24 @@ document.addEventListener("DOMContentLoaded", function () {
     drag: "free",
     focus: "center",
     perPage: 7,
+    gap: 50,
+    arrows: false,
+    pagination: false,
     autoScroll: {
-      speed: 1,
+      speed: 0.8,
+    },
+    breakpoints: {
+      600: {
+        fixedWidth: 100,
+        autoScroll: {
+          speed: 0.5,
+        },
+      },
     },
   }).mount(window.splide.Extensions);
+
+  var hamburger = document.querySelector(".hamburger");
+  hamburger.addEventListener("click", function () {
+    hamburger.classList.toggle("is-active");
+  });
 });

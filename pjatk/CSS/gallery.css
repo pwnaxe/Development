@@ -1,7 +1,7 @@
 #gallery {
   max-width: 100vw;
   text-align: center;
-  margin-bottom: 10rem;
+  margin-bottom: 15%;
   overflow: hidden;
 }
 
@@ -25,30 +25,27 @@
 }
 
 #main-carousel .splide__arrow--prev {
-  background-image: url("http://tanosmotorsport.pl/assets/prev.png");
+  background-image: url("/Assets/icons/prev.png");
   background-repeat: no-repeat;
   background-size: contain;
   left: 10%;
-  top: 50%;
   margin-left: auto;
   margin-right: auto;
   background-color: white;
-  height: 10rem;
-  width: 10rem;
+  height: 15%;
+  width: 15%;
   border-radius: 0%;
 }
 
 #main-carousel .splide__arrow--next {
-  background-image: url("http://tanosmotorsport.pl/assets/next.png");
+  background-image: url("/Assets/icons/next.png");
   background-repeat: no-repeat;
   background-size: contain;
-  right: 10%;
-  top: 50%;
   margin-left: auto;
   margin-right: auto;
   background-color: white;
-  height: 10rem;
-  width: 10rem;
+  height: 15%;
+  width: 15%;
   border-radius: 0%;
 }
 

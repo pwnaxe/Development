@@ -30,9 +30,9 @@
 #partner .button {
   background-size: cover;
   padding-bottom: 1rem;
-  padding-right: 4rem;
+  padding-right: 3rem;
   padding-left: -1rem;
-  background-position: -3rem;
+  background-position: -1rem;
 }
 
 @media all and (max-width: 1000px) {

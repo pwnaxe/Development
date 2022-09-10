@@ -12,7 +12,7 @@ body {
 }
 
 #top {
-  background-image: url("http://tanosmotorsport.pl/assets/top.webp");
+  background-image: url("/Assets/icons/top.webp");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 100%;
@@ -40,7 +40,7 @@ body {
 }
 
 #top h1 {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 .bold {
@@ -52,8 +52,16 @@ body {
   font-size: 1rem;
 }
 
+.sizebig {
+  font-size: 1.5rem;
+}
+
+.big {
+  font-size: 2.3rem;
+}
+
 .button {
-  background-image: url("http://tanosmotorsport.pl/assets/przycisk.webp");
+  background-image: url("/Assets/icons/przycisk.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: auto;
@@ -86,6 +94,10 @@ body {
   top: 0;
 }
 
+.lng {
+  width: 2rem;
+}
+
 @media all and (max-width: 1400px) {
   .bold {
     font-size: 1rem;
@@ -95,5 +107,52 @@ body {
   }
   #top h1 {
     font-size: 2rem;
+  }
+  .big {
+    font-size: 1.3rem;
+  }
+  .sizebig {
+    font-size: 1rem;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  #top {
+    min-height: 40vh;
+  }
+  .topmargin {
+    margin-top: 13vh;
+    margin-right: 55%;
+  }
+}
+
+@media all and (max-width: 900px) {
+  #top {
+    min-height: 60vh;
+    background-position-y: 0;
+  }
+  .logoabk {
+    width: 30%;
+    position: relative;
+    left: 0.5rem;
+    top: 2.5rem;
+  }
+  #top h1 {
+    display: none;
+  }
+
+  .topmargin {
+    margin-top: 20%;
+    margin-right: 57%;
+    margin-left: 2%;
+  }
+
+  #top a {
+    font-size: 0.8rem;
+  }
+
+  #button {
+    left: 0;
+    top: 5vh;
   }
 }
