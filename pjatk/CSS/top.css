@@ -80,6 +80,7 @@ body {
   position: relative;
   left: 13vw;
   top: 5vh;
+  z-index: 1;
 }
 
 .margin {
@@ -128,7 +129,7 @@ body {
 
 @media all and (max-width: 900px) {
   #top {
-    min-height: 60vh;
+    min-height: 25rem;
     background-position-y: 0;
   }
   .logoabk {
@@ -143,7 +144,7 @@ body {
 
   .topmargin {
     margin-top: 20%;
-    margin-right: 57%;
+    margin-right: 59%;
     margin-left: 2%;
   }
 

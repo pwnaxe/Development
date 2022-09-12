@@ -4,7 +4,7 @@
 
 @media all and (max-width: 1000px) {
   .hamburger {
-    padding: 15px 15px;
+    padding: 8px 15px 5px 15px;
     display: inline-block;
     cursor: pointer;
     transition-property: opacity, filter;
@@ -18,17 +18,62 @@
     margin: 0;
     overflow: visible;
     position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 2;
+    background-color: rgb(94, 94, 94);
+    height: 3rem;
+  }
+
+  .dropdown-content {
+    position: relative;
+    top: -5rem;
+    right: 11rem;
+    bottom: auto;
+    background-color: rgb(94, 94, 94);
+    padding-right: 29rem;
+    padding-top: 10rem;
+    left: auto;
+    width: 10rem;
+    height: 14rem;
+  }
+
+  .dropdown-content a {
+    text-decoration: none;
+    list-style: none;
+    color: rgb(223, 223, 223);
+    font-size: 1rem;
+    width: 10rem;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .dropdown-content li {
+    margin-top: 0.6rem;
+  }
+
+  .dropdown-content ul {
+    text-decoration: none;
+    list-style: none;
+    width: 10rem;
+    margin-top: -1rem;
+  }
+
+  .hidden {
+    display: none;
   }
   .hamburger:hover {
-    opacity: 0.7;
+    opacity: 1;
   }
   .hamburger.is-active:hover {
-    opacity: 0.7;
+    opacity: 1;
+    height: 1rem;
   }
   .hamburger.is-active .hamburger-inner,
   .hamburger.is-active .hamburger-inner::before,
   .hamburger.is-active .hamburger-inner::after {
-    background-color: #000;
+    background-color: #fdde2d;
+    z-index: 5;
   }
 
   .hamburger-box {
@@ -48,7 +93,7 @@
   .hamburger-inner::after {
     width: 40px;
     height: 4px;
-    background-color: #000;
+    background-color: #fdde2d;
     border-radius: 4px;
     position: absolute;
     transition-property: transform;

@@ -49,7 +49,9 @@ document.addEventListener("DOMContentLoaded", function () {
   }).mount(window.splide.Extensions);
 
   var hamburger = document.querySelector(".hamburger");
+  var menucontent = document.querySelector(".dropdown-content");
   hamburger.addEventListener("click", function () {
     hamburger.classList.toggle("is-active");
+    menucontent.classList.toggle("hidden");
   });
 });
