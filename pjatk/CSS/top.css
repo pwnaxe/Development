@@ -119,17 +119,21 @@ body {
 
 @media all and (max-width: 1000px) {
   #top {
-    min-height: 40vh;
+    min-height: 50vh;
   }
   .topmargin {
     margin-top: 13vh;
     margin-right: 55%;
   }
+  .button {
+    background-image: none;
+    background-color: #fdde2d;
+    padding: 0.3rem 0.8rem 0.3rem 0.8rem;
+  }
 }
 
 @media all and (max-width: 900px) {
   #top {
-    min-height: 25rem;
     background-position-y: 0;
   }
   .logoabk {
@@ -153,7 +157,19 @@ body {
   }
 
   #button {
-    left: 0;
+    left: 1vw;
     top: 5vh;
+  }
+}
+
+@media all and (max-height: 700px) and (max-width: 900px) {
+  #top {
+    min-height: 60vh;
+  }
+}
+
+@media all and (max-height: 700px) and (max-width: 300px) {
+  #top {
+    min-height: 65vh;
   }
 }
