@@ -35,12 +35,16 @@ document.addEventListener("DOMContentLoaded", function () {
     gap: 50,
     arrows: false,
     pagination: false,
+    fixedWidth: 600,
     autoScroll: {
       speed: 0.8,
     },
     breakpoints: {
-      600: {
-        fixedWidth: 100,
+      1650: {
+        fixedWidth: 250,
+      },
+      1000: {
+        fixedWidth: 150,
         autoScroll: {
           speed: 0.5,
         },
